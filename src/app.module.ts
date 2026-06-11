@@ -3,6 +3,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
 import { AuthModule } from './auth/auth.module';
 import { NotificationsModule } from './notifications/notfications.module';
+
 @Module({
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),

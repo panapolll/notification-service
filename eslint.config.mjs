@@ -11,7 +11,6 @@ export default tseslint.config(
 
   eslint.configs.recommended,
 
-  // ใช้ recommended แทน recommendedTypeChecked
   ...tseslint.configs.recommended,
 
   eslintPluginPrettierRecommended,
